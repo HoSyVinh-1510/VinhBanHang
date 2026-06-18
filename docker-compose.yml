@@ -45,8 +45,8 @@ services:
 
   promotionsservice:
     build:
-      context: .
-      dockerfile: BaseCore.PromotionsService/Dockerfile
+      context: BaseCore.PromotionsService
+      dockerfile: Dockerfile
     container_name: basecore_promotionsservice
     networks:
       - basecore_network
