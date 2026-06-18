@@ -1,0 +1,17 @@
+D:\FW\FW\BaseCore\BaseCore.Entities\bin\Release\net8.0\BaseCore.Entities.deps.json
+D:\FW\FW\BaseCore\BaseCore.Entities\bin\Release\net8.0\BaseCore.Entities.dll
+D:\FW\FW\BaseCore\BaseCore.Entities\bin\Release\net8.0\BaseCore.Entities.pdb
+D:\FW\FW\BaseCore\BaseCore.Entities\bin\Release\net8.0\BaseCore.Common.dll
+D:\FW\FW\BaseCore\BaseCore.Entities\bin\Release\net8.0\BaseCore.DTO.dll
+D:\FW\FW\BaseCore\BaseCore.Entities\bin\Release\net8.0\BaseCore.Common.pdb
+D:\FW\FW\BaseCore\BaseCore.Entities\bin\Release\net8.0\BaseCore.DTO.pdb
+D:\FW\FW\BaseCore\BaseCore.Entities\obj\Release\net8.0\BaseCore.Entities.csproj.AssemblyReference.cache
+D:\FW\FW\BaseCore\BaseCore.Entities\obj\Release\net8.0\BaseCore.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\FW\FW\BaseCore\BaseCore.Entities\obj\Release\net8.0\BaseCore.Entities.AssemblyInfoInputs.cache
+D:\FW\FW\BaseCore\BaseCore.Entities\obj\Release\net8.0\BaseCore.Entities.AssemblyInfo.cs
+D:\FW\FW\BaseCore\BaseCore.Entities\obj\Release\net8.0\BaseCore.Entities.csproj.CoreCompileInputs.cache
+D:\FW\FW\BaseCore\BaseCore.Entities\obj\Release\net8.0\BaseCore.E7D3D7DB.Up2Date
+D:\FW\FW\BaseCore\BaseCore.Entities\obj\Release\net8.0\BaseCore.Entities.dll
+D:\FW\FW\BaseCore\BaseCore.Entities\obj\Release\net8.0\refint\BaseCore.Entities.dll
+D:\FW\FW\BaseCore\BaseCore.Entities\obj\Release\net8.0\BaseCore.Entities.pdb
+D:\FW\FW\BaseCore\BaseCore.Entities\obj\Release\net8.0\ref\BaseCore.Entities.dll

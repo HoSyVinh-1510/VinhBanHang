@@ -1,0 +1,262 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/auth/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5002 }
+      ],
+      "UpstreamPathTemplate": "/api/auth/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/users/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5002 }
+      ],
+      "UpstreamPathTemplate": "/api/users/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/users",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5002 }
+      ],
+      "UpstreamPathTemplate": "/api/users",
+      "UpstreamHttpMethod": [ "GET", "POST", "OPTIONS" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/roles/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5002 }
+      ],
+      "UpstreamPathTemplate": "/api/roles/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/roles",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5002 }
+      ],
+      "UpstreamPathTemplate": "/api/roles",
+      "UpstreamHttpMethod": [ "GET", "OPTIONS" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/products/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5001 }
+      ],
+      "UpstreamPathTemplate": "/api/products/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/products",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5001 }
+      ],
+      "UpstreamPathTemplate": "/api/products",
+      "UpstreamHttpMethod": [ "GET", "POST", "OPTIONS" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/categories/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5001 }
+      ],
+      "UpstreamPathTemplate": "/api/categories/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/categories",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5001 }
+      ],
+      "UpstreamPathTemplate": "/api/categories",
+      "UpstreamHttpMethod": [ "GET", "POST", "OPTIONS" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/coupons/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5001 }
+      ],
+      "UpstreamPathTemplate": "/api/coupons/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/coupons",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5001 }
+      ],
+      "UpstreamPathTemplate": "/api/coupons",
+      "UpstreamHttpMethod": [ "GET", "POST", "OPTIONS" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/analytics/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5001 }
+      ],
+      "UpstreamPathTemplate": "/api/analytics/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "OPTIONS" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/analytics",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5001 }
+      ],
+      "UpstreamPathTemplate": "/api/analytics",
+      "UpstreamHttpMethod": [ "GET", "OPTIONS" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/wallet/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5001 }
+      ],
+      "UpstreamPathTemplate": "/api/wallet/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/wallet",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5001 }
+      ],
+      "UpstreamPathTemplate": "/api/wallet",
+      "UpstreamHttpMethod": [ "GET", "POST", "OPTIONS" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/orders/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5001 }
+      ],
+      "UpstreamPathTemplate": "/api/orders/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/orders",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5001 }
+      ],
+      "UpstreamPathTemplate": "/api/orders",
+      "UpstreamHttpMethod": [ "GET", "POST", "OPTIONS" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/cart/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5001 }
+      ],
+      "UpstreamPathTemplate": "/api/cart/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/cart",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5001 }
+      ],
+      "UpstreamPathTemplate": "/api/cart",
+      "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "OPTIONS" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/messages/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5001 }
+      ],
+      "UpstreamPathTemplate": "/api/messages/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/messages",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5001 }
+      ],
+      "UpstreamPathTemplate": "/api/messages",
+      "UpstreamHttpMethod": [ "GET", "POST", "OPTIONS" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/addresses/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5001 }
+      ],
+      "UpstreamPathTemplate": "/api/addresses/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/addresses",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5001 }
+      ],
+      "UpstreamPathTemplate": "/api/addresses",
+      "UpstreamHttpMethod": [ "GET", "POST", "OPTIONS" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/notifications/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5001 }
+      ],
+      "UpstreamPathTemplate": "/api/notifications/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/notifications",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5001 }
+      ],
+      "UpstreamPathTemplate": "/api/notifications",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "OPTIONS" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/promotions/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5003 }
+      ],
+      "UpstreamPathTemplate": "/api/promotions/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/promotions",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5003
+        }
+      ],
+      "UpstreamPathTemplate": "/api/promotions",
+      "UpstreamHttpMethod": [ "GET", "POST", "OPTIONS" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/reviews/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5001 }
+      ],
+      "UpstreamPathTemplate": "/api/reviews/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5000"
+  }
+}

@@ -1,0 +1,12 @@
+D:\FW\FW\BaseCore\BaseCore.DTO\bin\Release\net8.0\BaseCore.DTO.deps.json
+D:\FW\FW\BaseCore\BaseCore.DTO\bin\Release\net8.0\BaseCore.DTO.dll
+D:\FW\FW\BaseCore\BaseCore.DTO\bin\Release\net8.0\BaseCore.DTO.pdb
+D:\FW\FW\BaseCore\BaseCore.DTO\obj\Release\net8.0\BaseCore.DTO.csproj.AssemblyReference.cache
+D:\FW\FW\BaseCore\BaseCore.DTO\obj\Release\net8.0\BaseCore.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\FW\FW\BaseCore\BaseCore.DTO\obj\Release\net8.0\BaseCore.DTO.AssemblyInfoInputs.cache
+D:\FW\FW\BaseCore\BaseCore.DTO\obj\Release\net8.0\BaseCore.DTO.AssemblyInfo.cs
+D:\FW\FW\BaseCore\BaseCore.DTO\obj\Release\net8.0\BaseCore.DTO.csproj.CoreCompileInputs.cache
+D:\FW\FW\BaseCore\BaseCore.DTO\obj\Release\net8.0\BaseCore.DTO.dll
+D:\FW\FW\BaseCore\BaseCore.DTO\obj\Release\net8.0\refint\BaseCore.DTO.dll
+D:\FW\FW\BaseCore\BaseCore.DTO\obj\Release\net8.0\BaseCore.DTO.pdb
+D:\FW\FW\BaseCore\BaseCore.DTO\obj\Release\net8.0\ref\BaseCore.DTO.dll

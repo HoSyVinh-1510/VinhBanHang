@@ -1,0 +1,75 @@
+version: '3.8'
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: basecore_sqlserver
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=YourStrong@Password123
+      - MSSQL_PID=Express
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlvolume:/var/opt/mssql
+    networks:
+      - basecore_network
+
+  apiservice:
+    build:
+      context: .
+      dockerfile: BaseCore.APIService/Dockerfile
+    container_name: basecore_apiservice
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Docker
+      - ConnectionStrings__ConnectedDb=Server=sqlserver;Database=BaseCoreSales;User Id=sa;Password=YourStrong@Password123;TrustServerCertificate=True;
+    depends_on:
+      - sqlserver
+    networks:
+      - basecore_network
+
+  authservice:
+    build:
+      context: .
+      dockerfile: BaseCore.AuthService/Dockerfile
+    container_name: basecore_authservice
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Docker
+      - ConnectionStrings__ConnectedDb=Server=sqlserver;Database=BaseCoreSales;User Id=sa;Password=YourStrong@Password123;TrustServerCertificate=True;
+      - AppSettings__IsProduction=true
+      - Cors__WithOrigin=*
+    depends_on:
+      - sqlserver
+    networks:
+      - basecore_network
+
+  promotionsservice:
+    build:
+      context: .
+      dockerfile: BaseCore.PromotionsService/Dockerfile
+    container_name: basecore_promotionsservice
+    networks:
+      - basecore_network
+
+  apigateway:
+    build:
+      context: .
+      dockerfile: BaseCore.ApiGateway/Dockerfile
+    container_name: basecore_apigateway
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Docker
+    ports:
+      - "5000:8080"
+    depends_on:
+      - apiservice
+      - authservice
+      - promotionsservice
+    networks:
+      - basecore_network
+
+volumes:
+  sqlvolume:
+
+networks:
+  basecore_network:
+    driver: bridge

@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\BaseCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B1C2D3E4-F5A6-7890-BCDE-F12345678901}|BaseCore.APIService\\BaseCore.APIService.csproj|c:\\users\\admin\\desktop\\basecore\\basecore.apiservice\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1C2D3E4-F5A6-7890-BCDE-F12345678901}|BaseCore.APIService\\BaseCore.APIService.csproj|solutionrelative:basecore.apiservice\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C747753-99CA-4281-BE7D-1711BA222237}|BaseCore.Repository\\BaseCore.Repository.csproj|c:\\users\\admin\\desktop\\basecore\\basecore.repository\\efcore\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C747753-99CA-4281-BE7D-1711BA222237}|BaseCore.Repository\\BaseCore.Repository.csproj|solutionrelative:basecore.repository\\efcore\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C747753-99CA-4281-BE7D-1711BA222237}|BaseCore.Repository\\BaseCore.Repository.csproj|c:\\users\\admin\\desktop\\basecore\\basecore.repository\\efcore\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C747753-99CA-4281-BE7D-1711BA222237}|BaseCore.Repository\\BaseCore.Repository.csproj|solutionrelative:basecore.repository\\efcore\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1C2D3E4-F5A6-7890-BCDE-F12345678901}|BaseCore.APIService\\BaseCore.APIService.csproj|c:\\users\\admin\\desktop\\basecore\\basecore.apiservice\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1C2D3E4-F5A6-7890-BCDE-F12345678901}|BaseCore.APIService\\BaseCore.APIService.csproj|solutionrelative:basecore.apiservice\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1C2D3E4-F5A6-7890-BCDE-F12345678901}|BaseCore.APIService\\BaseCore.APIService.csproj|c:\\users\\admin\\desktop\\basecore\\basecore.apiservice\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1C2D3E4-F5A6-7890-BCDE-F12345678901}|BaseCore.APIService\\BaseCore.APIService.csproj|solutionrelative:basecore.apiservice\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1C2D3E4-F5A6-7890-BCDE-F12345678901}|BaseCore.APIService\\BaseCore.APIService.csproj|c:\\users\\admin\\desktop\\basecore\\basecore.apiservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B1C2D3E4-F5A6-7890-BCDE-F12345678901}|BaseCore.APIService\\BaseCore.APIService.csproj|solutionrelative:basecore.apiservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3934463F-480E-4BE1-8796-E79F458CAEE7}|BaseCore.ApiGateway\\BaseCore.ApiGateway.csproj|c:\\users\\admin\\desktop\\basecore\\basecore.apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3934463F-480E-4BE1-8796-E79F458CAEE7}|BaseCore.ApiGateway\\BaseCore.ApiGateway.csproj|solutionrelative:basecore.apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3934463F-480E-4BE1-8796-E79F458CAEE7}|BaseCore.ApiGateway\\BaseCore.ApiGateway.csproj|c:\\users\\admin\\desktop\\basecore\\basecore.apigateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3934463F-480E-4BE1-8796-E79F458CAEE7}|BaseCore.ApiGateway\\BaseCore.ApiGateway.csproj|solutionrelative:basecore.apigateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C747753-99CA-4281-BE7D-1711BA222237}|BaseCore.Repository\\BaseCore.Repository.csproj|c:\\users\\admin\\desktop\\basecore\\basecore.repository\\mysqldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C747753-99CA-4281-BE7D-1711BA222237}|BaseCore.Repository\\BaseCore.Repository.csproj|solutionrelative:basecore.repository\\mysqldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C747753-99CA-4281-BE7D-1711BA222237}|BaseCore.Repository\\BaseCore.Repository.csproj|c:\\users\\admin\\desktop\\basecore\\basecore.repository\\migrations\\mysqldbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C747753-99CA-4281-BE7D-1711BA222237}|BaseCore.Repository\\BaseCore.Repository.csproj|solutionrelative:basecore.repository\\migrations\\mysqldbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1C2D3E4-F5A6-7890-BCDE-F12345678901}|BaseCore.APIService\\BaseCore.APIService.csproj|c:\\users\\admin\\desktop\\basecore\\basecore.apiservice\\basecore.apiservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B1C2D3E4-F5A6-7890-BCDE-F12345678901}|BaseCore.APIService\\BaseCore.APIService.csproj|solutionrelative:basecore.apiservice\\basecore.apiservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{748A2479-E8AC-453C-9FC2-AAE28B9F1AFA}|BaseCore.DTO\\BaseCore.DTO.csproj|c:\\users\\admin\\desktop\\basecore\\basecore.dto\\basecore.dto.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{748A2479-E8AC-453C-9FC2-AAE28B9F1AFA}|BaseCore.DTO\\BaseCore.DTO.csproj|solutionrelative:basecore.dto\\basecore.dto.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3934463F-480E-4BE1-8796-E79F458CAEE7}|BaseCore.ApiGateway\\BaseCore.ApiGateway.csproj|c:\\users\\admin\\desktop\\basecore\\basecore.apigateway\\basecore.apigateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3934463F-480E-4BE1-8796-E79F458CAEE7}|BaseCore.ApiGateway\\BaseCore.ApiGateway.csproj|solutionrelative:basecore.apigateway\\basecore.apigateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA5D057-E608-4A17-B58B-FABEADC300D9}|BaseCore.AuthService\\BaseCore.AuthService.csproj|c:\\users\\admin\\desktop\\basecore\\basecore.authservice\\basecore.authservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FDA5D057-E608-4A17-B58B-FABEADC300D9}|BaseCore.AuthService\\BaseCore.AuthService.csproj|solutionrelative:basecore.authservice\\basecore.authservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BaseCore\\BaseCore.Repository\\EFCore\\Repository.cs",
+              "RelativeDocumentMoniker": "BaseCore.Repository\\EFCore\\Repository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BaseCore\\BaseCore.Repository\\EFCore\\Repository.cs",
+              "RelativeToolTip": "BaseCore.Repository\\EFCore\\Repository.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAIwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T03:24:39.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BaseCore\\BaseCore.Repository\\EFCore\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "BaseCore.Repository\\EFCore\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BaseCore\\BaseCore.Repository\\EFCore\\ProductRepository.cs",
+              "RelativeToolTip": "BaseCore.Repository\\EFCore\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T03:23:38.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BaseCore\\BaseCore.APIService\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "BaseCore.APIService\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BaseCore\\BaseCore.APIService\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "BaseCore.APIService\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwEcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T03:19:21.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BaseCore\\BaseCore.ApiGateway\\Program.cs",
+              "RelativeDocumentMoniker": "BaseCore.ApiGateway\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BaseCore\\BaseCore.ApiGateway\\Program.cs",
+              "RelativeToolTip": "BaseCore.ApiGateway\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T08:39:00.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BaseCore\\BaseCore.APIService\\appsettings.json",
+              "RelativeDocumentMoniker": "BaseCore.APIService\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BaseCore\\BaseCore.APIService\\appsettings.json",
+              "RelativeToolTip": "BaseCore.APIService\\appsettings.json",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwA4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-18T07:34:39.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BaseCore\\BaseCore.APIService\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "BaseCore.APIService\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BaseCore\\BaseCore.APIService\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "BaseCore.APIService\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAALAAAAAAAAAAAAAUwA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T08:39:14.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BaseCore\\BaseCore.APIService\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "BaseCore.APIService\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BaseCore\\BaseCore.APIService\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "BaseCore.APIService\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T02:51:29.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BaseCore\\BaseCore.ApiGateway\\appsettings.json",
+              "RelativeDocumentMoniker": "BaseCore.ApiGateway\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BaseCore\\BaseCore.ApiGateway\\appsettings.json",
+              "RelativeToolTip": "BaseCore.ApiGateway\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-07T03:16:25.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MySqlDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BaseCore\\BaseCore.Repository\\MySqlDbContext.cs",
+              "RelativeDocumentMoniker": "BaseCore.Repository\\MySqlDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BaseCore\\BaseCore.Repository\\MySqlDbContext.cs",
+              "RelativeToolTip": "BaseCore.Repository\\MySqlDbContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T02:52:04.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MySqlDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BaseCore\\BaseCore.Repository\\Migrations\\MySqlDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "BaseCore.Repository\\Migrations\\MySqlDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BaseCore\\BaseCore.Repository\\Migrations\\MySqlDbContextModelSnapshot.cs",
+              "RelativeToolTip": "BaseCore.Repository\\Migrations\\MySqlDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T02:53:47.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BaseCore.ApiGateway.csproj",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BaseCore\\BaseCore.ApiGateway\\BaseCore.ApiGateway.csproj",
+              "RelativeDocumentMoniker": "BaseCore.ApiGateway\\BaseCore.ApiGateway.csproj",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BaseCore\\BaseCore.ApiGateway\\BaseCore.ApiGateway.csproj",
+              "RelativeToolTip": "BaseCore.ApiGateway\\BaseCore.ApiGateway.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-24T08:38:32.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BaseCore.APIService.csproj",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BaseCore\\BaseCore.APIService\\BaseCore.APIService.csproj",
+              "RelativeDocumentMoniker": "BaseCore.APIService\\BaseCore.APIService.csproj",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BaseCore\\BaseCore.APIService\\BaseCore.APIService.csproj",
+              "RelativeToolTip": "BaseCore.APIService\\BaseCore.APIService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-24T08:38:31.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BaseCore.DTO.csproj",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BaseCore\\BaseCore.DTO\\BaseCore.DTO.csproj",
+              "RelativeDocumentMoniker": "BaseCore.DTO\\BaseCore.DTO.csproj",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BaseCore\\BaseCore.DTO\\BaseCore.DTO.csproj",
+              "RelativeToolTip": "BaseCore.DTO\\BaseCore.DTO.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-24T08:38:41.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BaseCore.AuthService.csproj",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BaseCore\\BaseCore.AuthService\\BaseCore.AuthService.csproj",
+              "RelativeDocumentMoniker": "BaseCore.AuthService\\BaseCore.AuthService.csproj",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BaseCore\\BaseCore.AuthService\\BaseCore.AuthService.csproj",
+              "RelativeToolTip": "BaseCore.AuthService\\BaseCore.AuthService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-24T08:38:24.368Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
