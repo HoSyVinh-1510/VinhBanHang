@@ -58,12 +58,22 @@ services:
     container_name: basecore_apigateway
     environment:
       - ASPNETCORE_ENVIRONMENT=Docker
-    ports:
-      - "5000:8080"
     depends_on:
       - apiservice
       - authservice
       - promotionsservice
+    networks:
+      - basecore_network
+
+  webclient:
+    build:
+      context: BaseCore.WebClient
+      dockerfile: Dockerfile
+    container_name: basecore_webclient
+    ports:
+      - "80:80"
+    depends_on:
+      - apigateway
     networks:
       - basecore_network
 
