@@ -4,6 +4,7 @@ services:
   sqlserver:
     image: mcr.microsoft.com/mssql/server:2022-latest
     container_name: basecore_sqlserver
+    restart: unless-stopped
     environment:
       - ACCEPT_EULA=Y
       - MSSQL_SA_PASSWORD=YourStrong@Password123
@@ -20,6 +21,7 @@ services:
       context: .
       dockerfile: BaseCore.APIService/Dockerfile
     container_name: basecore_apiservice
+    restart: unless-stopped
     environment:
       - ASPNETCORE_ENVIRONMENT=Docker
       - ConnectionStrings__ConnectedDb=Server=sqlserver;Database=BaseCoreSales;User Id=sa;Password=YourStrong@Password123;TrustServerCertificate=True;
@@ -33,6 +35,7 @@ services:
       context: .
       dockerfile: BaseCore.AuthService/Dockerfile
     container_name: basecore_authservice
+    restart: unless-stopped
     environment:
       - ASPNETCORE_ENVIRONMENT=Docker
       - ConnectionStrings__ConnectedDb=Server=sqlserver;Database=BaseCoreSales;User Id=sa;Password=YourStrong@Password123;TrustServerCertificate=True;
@@ -48,6 +51,7 @@ services:
       context: BaseCore.PromotionsService
       dockerfile: Dockerfile
     container_name: basecore_promotionsservice
+    restart: unless-stopped
     networks:
       - basecore_network
 
@@ -56,6 +60,7 @@ services:
       context: .
       dockerfile: BaseCore.ApiGateway/Dockerfile
     container_name: basecore_apigateway
+    restart: unless-stopped
     environment:
       - ASPNETCORE_ENVIRONMENT=Docker
     depends_on:
@@ -70,6 +75,7 @@ services:
       context: BaseCore.WebClient
       dockerfile: Dockerfile
     container_name: basecore_webclient
+    restart: unless-stopped
     ports:
       - "80:80"
     depends_on:
